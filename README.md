@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RouteMux is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://routemux.com/
+RouteMux is an AI gateway that provides unified access to hundreds of AI models from providers such as OpenAI, Anthropic, Google, and others through a single OpenAI‑compatible API. It offers multi‑layer redundancy, refundable prepaid balances, and transparent pricing (e.g., $0.15 per 1M input tokens). The platform includes a console for managing API keys, usage, and billing, and supports various model types including text, image, and video. RouteMux emphasizes reliability, cost‑efficiency, and ease of integration for enterprises seeking to adopt AI services across multiple vendors.
+
+**Areas:** AI · Gateway · Multi-Model · UnifiedAPI · Company
+
+## RouteMux on APIs.io
+
+Everything profiled for RouteMux is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/routemux-com/](https://apis.io/providers/routemux-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [RouteMux Chat Completions API](https://apis.io/apis/routemux-com/routemux-com-chat-completions-api/) — Text conversation and reasoning. All three protocols reach the same models — pick the one your SDK already speaks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Routemux Com Agentic Access](https://apis.io/agentic-access/routemux-com/routemux-com-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PassthroughBody](https://apis.io/schemas/routemux-com/routemux-com-passthrough-body/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RouteMux API Rules](https://apis.io/rules/routemux-com/routemux-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Routemux Com Authentication](https://apis.io/security/routemux-com/routemux-com-authentication/)
+- [Routemux Com Domain Security](https://apis.io/security/routemux-com/routemux-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://routemux.com/)
+- [Documentation](https://routemux.com/docs)
+- [Getting started](https://routemux.com/docs/getting-started)
+- [API reference](https://routemux.com/llms.txt)
+- [Pricing](https://routemux.com/pricing)
+- [Sign up](https://routemux.com/)
+- [Support](https://routemux.com/about#contact)
+- [Changelog](https://routemux.com/changelog)
+- [Blog](https://routemux.com/blog)
+- [Terms of service](https://routemux.com/terms)
+- [Privacy policy](https://routemux.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 53.5** — developing · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 44.7 |
+
+**Agent readiness 25.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/routemux-com/](https://apis.io/providers/routemux-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RouteMux: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/routemux-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
